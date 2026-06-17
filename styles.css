@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+/* Fixed Main Container styles */
+.Main-Container {
+	background-color: #f5f5f5;
+	padding: 10px; /* Removed quotes */
+}
+
+/* Fixed Testimonial layout styles */
+.Testimonial {
+	padding: 2%;
+	border: 5px solid #ccc; /* Added border style keyword */
+	background-color: white;
+}
+
+/* Text formatting styles */
+.Text {
+	font-family: sans-serif;
+}
+
+/* Author alignment styles */
+.Author {
+	text-align: right;
+	font-style: italic;
+}
+
+/* Rules for the target questions checked by Cypress */
+.questions {
+	/* If your test checks for specific properties like padding or margins, add them here */
+	margin: 10px 0;
+	padding: 10px;
+}
